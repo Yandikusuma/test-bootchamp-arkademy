@@ -1,5 +1,4 @@
 //Validasi username
-let username = 'yandi';
 
 function ValidasiUsername(){
 	if( username === username.toLowerCase()){
@@ -13,7 +12,6 @@ function ValidasiUsername(){
 ValidasiUsername();
 
 //Validasi email
-let email = 'yandi@gmail.com'
 
 function validasiEmail(){
 	if (( email.indexOf('@') > 0 ) && ( email == email.toLowerCase() )){
@@ -27,7 +25,6 @@ function validasiEmail(){
 validasiEmail();
 
 // validasi Phone Number
-let phonenumber = +092884858 ;
 
 function validPhoneNumber(){
 	if( typeof phonenumber === 'number' ){
