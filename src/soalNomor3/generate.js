@@ -1,18 +1,29 @@
-var i = 78, j = 247, k = 170, a = [], b = [], c, d, e, f, l = 0;
-for(; i <= j; i++){ a.push(i); }
-while(l < 110){
-		c = Math.random()*100; c = Math.floor(c);
-		d = Math.random()*100; d = Math.floor(d);
-		b.push(a[c]); e = c + d;
-		if((b.length != k) && (e < k)){  b.push(a[e]); }
-		l = b.length;
-}
-console.log('Method 1:');
-console.log(b);
+//     function Generate(){
+//  	batas_bagian = 4;
+//  	batas_total_semua = 4;
+//  	randomed_serial = "";
+//  	var data_serial = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz012456789";
 
-const angka = 1-10;
-const huruf = 'a-z';
+// 	for (i = 0; i < batas_total_semua; i++){
+//  		for(y = 0; y < batas_bagian; y++){
+//  			randomed_serial += data_serial.charAt(Math.floor(Math.random() * data_serial.length))
+//  		}
+//  		if(i < batas_total_semua-1){
+//  			randomed_serial+= "-"
+//  		}
+//  	}
+//  	console.log(randomed_serial)
+//  }
 
-function Generate(){
-	for ( )
-}
+// function Generate300(){
+// 	for( i = 0; i < 300; i++){
+// 		Generate();
+// 	}
+// }
+
+//  Generate300();
+
+var total_people = 3;
+var count
+
+
