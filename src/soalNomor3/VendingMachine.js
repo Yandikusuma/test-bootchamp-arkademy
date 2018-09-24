@@ -43,12 +43,11 @@ function main() {
 			total_bayar: 0,
 
 	}
-	//kita masukan data minuman apa saja yang dibeli
+	
 	consumer.makanan_yang_dibeli.push(data_source[0])
 	consumer.makanan_yang_dibeli.push(data_source[1])
 	consumer.makanan_yang_dibeli.push(data_source[2])
 	
-	//kita cari tau total harga semua minuman
 	for (i = 0; i < consumer.makanan_yang_dibeli.length; i++) {
 			consumer.total_bayar += consumer.makanan_yang_dibeli[i].harga;
 	}
