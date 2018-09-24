@@ -43,7 +43,7 @@ function main() {
 			total_bayar: 0,
 
 	}
-	
+
 	consumer.makanan_yang_dibeli.push(data_source[0])
 	consumer.makanan_yang_dibeli.push(data_source[1])
 	consumer.makanan_yang_dibeli.push(data_source[2])
@@ -51,14 +51,11 @@ function main() {
 	for (i = 0; i < consumer.makanan_yang_dibeli.length; i++) {
 			consumer.total_bayar += consumer.makanan_yang_dibeli[i].harga;
 	}
-	//ok kita lanjut ke pembayaran
 	if (consumer.total_bayar > consumer.total_uang) {
 			console.log("uang tidak cukup, kurang %s ", consumer.total_uang - consumer.total_bayar)
 	} else {
-			//ok kita cari kembalian yang paling tepat
 			temp_data = []
 			var uang_kembali = consumer.total_uang - consumer.total_bayar;
-//        console.log(uang_kembali)
 			sorted = data_uang_kembali.sort(function (a, b) {
 					return b - a;
 			});
