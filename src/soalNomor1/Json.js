@@ -14,5 +14,30 @@ myJson = {
 }
 
 myJsonReturn = JSON.stringify(myJson);
-console.log(myJsonReturn)
+
+
+
+
+biodata = ( name, address, hobbies, is_married, school, skill) => {
+	return {
+		name,
+		address,
+		hobbies,
+		is_married,
+		school,
+		skill
+	}
+}
+
+const bio = biodata( 
+	'Yandik', 
+	'Jakarta', 
+	['bola'], 
+	false, {
+	'highSchool': 'SMK',
+	'university': null},
+	[{"programLanguage": "javascript"}]
+)
+
+console.log(bio)
 

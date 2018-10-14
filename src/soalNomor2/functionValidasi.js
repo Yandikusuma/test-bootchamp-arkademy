@@ -1,7 +1,6 @@
 //Validasi username
- let username = "yandik"
 
-   function ValidasiUsername(){
+   function ValidasiUsername(username){
    	if(username.match(/^[a-z]+$/)){
    		console.log('username valid')
    		return('username valid');
@@ -10,15 +9,12 @@
    		return('username invalid');
    	}
    }
-ValidasiUsername();
+ValidasiUsername("yandik");
 
 
 //Validasi email
 
-
-let email = "yandik@gmail.com"
-
-    function validasiEmail(){
+    function validasiEmail(email){
     	if (email.match(/^([a-z]+)@([a-z\.]+).$/)){
     		console.log('email  valid')
     		return('email valid');
@@ -27,14 +23,13 @@ let email = "yandik@gmail.com"
     		return('email invalid');
     	}
     }
-validasiEmail()
+validasiEmail("yandik@gmail.com")
 
 
  //validasi Phone Number
 
- phoneNumber = "+0853 2024 5700"
 
-  function validPhoneNumber(){
+  function validPhoneNumber(phoneNumber){
 	if(phoneNumber.match(/^([0-9\+]+)\s/)){
   		console.log('phonenumber valid')
   		return('phonenumber valid');
@@ -43,4 +38,4 @@ validasiEmail()
   		return('phonenumber invalid');
   	}
   }
-  validPhoneNumber();
+  validPhoneNumber("+0853 2024 5700");
