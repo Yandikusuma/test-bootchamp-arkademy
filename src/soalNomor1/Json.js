@@ -30,12 +30,13 @@ biodata = ( name, address, hobbies, is_married, school, skill) => {
 }
 
 const bio = biodata( 
-	'Yandik', 
-	'Jakarta', 
-	['bola'], 
+	"Yandi", 
+	"Jakarta", 
+	["bola"], 
 	false, {
-	'highSchool': 'SMK',
-	'university': null},
+	"highSchool": "SMK",
+	"university": null 
+  },
 	[{"programLanguage": "javascript"}]
 )
 

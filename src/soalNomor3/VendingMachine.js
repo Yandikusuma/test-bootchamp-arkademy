@@ -107,7 +107,6 @@ vendingMachine = (Total_belanja, Total_uang) => {
 	}
 
 	Stok_uang.map((uang, index) => {
-		console.log(index)
 		if((uang_kembali - output[output.length -1]) >= 0){
 			output.push(output[output.length -1])
 			uang_kembali -= output[output.length -1]
@@ -121,6 +120,6 @@ vendingMachine = (Total_belanja, Total_uang) => {
 
 }
 
-console.log(vendingMachine( 21000, 50000))
+console.log(vendingMachine( 21000, 10000))
 
 
