@@ -1,6 +1,6 @@
 //Validasi username
 
-   function ValidasiUsername(username){
+ValidasiUsername = (username) => {
    	if(username.match(/^[a-z]+$/)){
    		console.log('username valid')
    		return('username valid');
@@ -14,7 +14,7 @@ ValidasiUsername("yandik");
 
 //Validasi email
 
-    function validasiEmail(email){
+validasiEmail = (email) => {
     	if (email.match(/^([a-z]+)@([a-z\.]+).$/)){
     		console.log('email  valid')
     		return('email valid');
@@ -29,7 +29,7 @@ validasiEmail("yandik@gmail.com")
  //validasi Phone Number
 
 
-  function validPhoneNumber(phoneNumber){
+validPhoneNumber = (phoneNumber) => {
 	if(phoneNumber.match(/^([0-9\+]+)\s/)){
   		console.log('phonenumber valid')
   		return('phonenumber valid');
