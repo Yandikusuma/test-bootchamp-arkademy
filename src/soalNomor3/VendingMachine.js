@@ -33,6 +33,6 @@ vendingMachine = (Total_belanja, Total_uang) => {
 
 }
 
-console.log(vendingMachine( 21000, 10000))
+console.log(vendingMachine( 21500, 50000))
 
 
